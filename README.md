@@ -14,6 +14,6 @@
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/<your-user>/rough-pde-pricing.git
+git clone https://github.com/lucapelizzari/rough-pde-pricing.git
 cd rough-pde-pricing
 pip install -e ".[dev]"
