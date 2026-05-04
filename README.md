@@ -8,3 +8,12 @@
 - `rBergomi.py`: rough Bergomi simulation utilities adapted from an external implementation.
 - `rBergomi_simulation.py`: wrapper functions to generate the volatility paths, integrated driver \(I\), and quadratic variation \([I]\) used by the RPDE solver.
 - `notebooks`: Currently one notebook with an illustration of code usage.
+
+## Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/<your-user>/rough-pde-pricing.git
+cd rough-pde-pricing
+pip install -e ".[dev]"
