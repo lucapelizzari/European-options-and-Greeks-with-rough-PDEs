@@ -7,4 +7,4 @@
 - `utils_1.py`: helper functions for path interpolation, cumulative paths, plotting, and related utilities.
 - `rBergomi.py`: rough Bergomi simulation utilities adapted from an external implementation.
 - `rBergomi_simulation.py`: wrapper functions to generate the volatility paths, integrated driver \(I\), and quadratic variation \([I]\) used by the RPDE solver.
-- `examples/`: notebooks demonstrating pricing and Greek computation.
+- `notebooks`: Currently one notebook with an illustration of code usage.
