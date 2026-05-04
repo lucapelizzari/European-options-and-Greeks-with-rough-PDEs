@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rough-pde-pricing"
+version = "0.1.0"
+description = "Partial Monte Carlo pricing and Greeks for European options via sample-wise rough PDEs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Luca Pelizzari"}
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.5",
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+]
+
+[tool.ruff]
+line-length = 100
